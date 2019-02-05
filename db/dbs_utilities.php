@@ -1,5 +1,5 @@
 <?php 
-require_once('dbs_credentials.php');	// Carga datos para conexion a BSD
+require_once('dbs_credentialsl.php');	// Carga datos para conexion a BSD
 //session_start();
 
 //include_once('verify.php');
@@ -29,7 +29,6 @@ function verSolicitudT()
 		else{
 			return false;	//returna falso en caso de que no encuentre datos 
 		}
-
 	//return $result;
 }
 
@@ -44,7 +43,6 @@ function verSolicitudMonitor()
 		else{
 			return false;	//returna falso en caso de que no encuentre datos 
 		}
-
 	//return $result;
 }
 
@@ -59,7 +57,6 @@ function verSolicitudAuxiliar()
 		else{
 			return false;	//returna falso en caso de que no encuentre datos 
 		}
-
 	//return $result;
 }
 
