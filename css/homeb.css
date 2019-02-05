@@ -1,0 +1,41 @@
+#importante-home{
+    color: #535353;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    align-self: center;
+    justify-content: center;
+    width: 90%;
+    margin: 3.5em 0 4em 0;
+    padding: 2em;
+    margin-left: 0em;
+    text-align: center;
+}
+#importante-home h3{
+    font-size: 30px;
+    color: #3c3c3c;
+}
+#importante-home a{
+    color: #535353;
+}
+#importante-home a:hover{
+    color: #002f9a;
+}
+.cartas-derecha-1{
+    display: flex;
+}
+.cartas-derecha-2{
+    align-self: center;
+    display: flex;
+    width: 75%;
+}
+
+@media(max-width:1000px) {
+    .cartas-derecha-1,
+    .cartas-derecha-2 {
+        flex-direction: column;
+    }
+    .boton{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+}

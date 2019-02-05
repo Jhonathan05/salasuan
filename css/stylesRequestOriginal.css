@@ -1,0 +1,100 @@
+ul li{
+    list-style: none;
+}
+p{
+    color: white;
+}
+.boton-enviar {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+.botons{
+    margin: 0;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    /*Border Size: 1px;*/
+    box-shadow: 0;
+    padding: .5em;
+    
+
+}
+
+.contenedor {
+    padding: 2em;
+    display: flex;
+    /*background-color: #1d1d1d;*/
+    justify-content: center;
+}
+
+/*.contenido {
+    flex-wrap: wrap;
+}*/
+
+.cuadro {
+    border-radius: 10px;
+    padding: 0em 3em 3em;
+    /*background-color: #535353;*/
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    
+}
+.datos-dia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+.datos-estudiante {
+    display: flex;
+}
+
+.datos-horario {
+    display: flex;
+    justify-content: space-around;
+}
+
+.datos-horario ul{
+    padding: 0;
+    margin: 0;
+}
+
+.dia-sep{
+    border:1em;
+}
+
+.titulo {
+    margin-top: 2.5em;
+    text-align: center;
+    /*background-color: bisque;*/
+}
+
+@media(max-width: 1000px){
+    .contenedor{
+        padding: 0;
+        display: block;
+    }
+    .datos-horario{
+        flex-direction: column;
+    }
+    footer{
+        font-size: 1px;
+    }
+    .cuadro {
+    border-radius: 10px;
+    padding: 0em 3em 3em;
+    /*background-color: #535353;*/
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+    }
+    .titulo h2{
+        padding-bottom: 1em;
+    }
+    
+    .contenido{
+        padding-bottom: 6em;
+    }
+}

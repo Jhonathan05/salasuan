@@ -1,0 +1,38 @@
+form{
+    /*background-color: greenyellow;*/
+}
+.caja{
+    padding: 3em 5em;
+    /*background-color: red;*/
+    margin: 0em;
+    display: flex;
+    align-content: center;
+}
+p{
+    padding: 1em 0em;
+}
+
+.boton-iniciar{
+    padding-top: 2em;
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+
+/*body, html {
+height: 100%}
+
+html body.wide #wrapper.container {
+min-height: 100%;
+position: relative;
+padding-bottom: 226px!important;Footer height
+}
+
+footer {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+}*/

@@ -1,0 +1,34 @@
+#usuario-iz nav{
+    width: 100%;
+}
+.solicitud-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.usuario-iz-nav{
+    /*background-color: red;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.usuario-iz-nav li{
+    width: 100%;
+    height: 100%;
+    padding: 8px 0px 8px 0px;
+}
+.ul-item-border{
+    border-top: 1px solid #c3c3c3;        
+}
+.ul-item-border-first{
+    border-top: 0px;
+}
+.ico-pad{
+    padding-right: 1em;
+    padding-left: 3.5em;
+}

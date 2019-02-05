@@ -1,0 +1,350 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*-----------------------------------------------------Parte Central------------------------------------------*/
+
+#division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #061934;*/
+}
+
+#soli-index {
+    margin-top: 20px;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+#soli-index input {
+    border: 2px solid #ffffff;
+    background-color: rgba(11, 42, 87, 0.28);
+    color: white;
+    padding: .5em 1em;
+    border-radius: 50px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+#texto {
+    /*background-color: red;*/
+    padding: 2em;
+    position: absolute;
+    top: 370px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenido-texto h1 {
+    font-size: 50px;
+    text-shadow: -1px 0px 15px rgba(0, 0, 0, 1);
+    /*horizontal, vertical, expanción*/
+}
+
+#botones {
+    width: 50%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.btn-bloque {
+    border: 2px solid #ffffff;
+    /*background-color: #1565C0; ---------------- original*/
+    background-color: rgba(11, 42, 87, 0.28);
+    color: white;
+    padding: .5em 1em;
+    border-radius: 50px;
+    /* -webkit-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 3px rgba(15, 15, 15, 0.38);*/
+}
+
+
+/*-----------------------------------------------------Parte Central------------------------------------------*/
+
+#imagen{
+    height: 793px;
+}
+
+#imagen img {
+    width: 100%;
+    height: 793px;
+}
+
+
+/*-----------------------------------------------------Menú desplegable------------------------------------------*/
+
+#info-monitor-index {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+#info-monitor-index i {
+    font-size: 20px;
+}
+
+#menu-sesion-index {
+    width: 10.5%;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.23);
+    position: absolute;
+    right: 0px;
+    border-radius: 10px;
+}
+
+#usuario-desp {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info-monitor-desplegable-index {
+    /*background-color: aqua;*/
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#info-monitor-desplegable-index-desaparecer {
+    display: none;
+}
+
+#info-monitor-index:hover>#info-monitor-desplegable-index-desaparecer {
+    display: block;
+}
+
+
+/*-----------------------------------------------------Menú desplegable------------------------------------------*/
+
+
+/*-----------------------------------------------------Menú desplegable MOVIL------------------------------------------*/
+
+.desplegable-index {
+    display: none;
+}
+
+.desplegable-index label {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#btn-menu {
+    display: none;
+}
+
+.menu {
+    background-color: #555;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu ul li:hover ul {
+    display: block;
+    position: absolute;
+    /*Absolute para que Rompa la maquetación*/
+}
+
+
+/*-----------------------------------------------------Menú desplegable MOVIL------------------------------------------*/
+
+
+/*-----------------------------------------------------Opción dos------------------------------------------*/
+
+
+/*#texto{
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 9px;
+    padding: 2em;
+    position: absolute;
+    top: 200px;
+    color: white;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    
+}*/
+
+
+/*-----------------------------------------------------Opción dos------------------------------------------*/
+
+@media(max-width:1000px) {
+    html {
+        height: 100%;
+        /* Ubicación de la imagen */
+        background-image: url(../img/index/princ.png);
+        /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+        background-position: center center;
+        /* Para que la imagen de fondo no se repita */
+        background-repeat: no-repeat;
+        /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+        background-attachment: fixed;
+        /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+        background-size: cover;
+        /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+        background-color: #66999;
+    }
+    #menu-sesion-index {
+        display: none;
+    }
+    #contenido-texto h1 {
+        font-size: 80px;
+    }
+    #division {
+        width: 100%;
+        top: 50%;
+        position: absolute;
+        z-index: 0;
+    }
+    #texto {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    #botones {
+        /*flex-direction: column;*/
+        font-size: 30px;
+    }
+    /*#imagen img {
+        height: 720px;
+    }*/
+    #imagen {
+        display: none;
+    }
+    #soli-index input {
+        font-size: 30px;
+    padding: 1em 2em;
+    border-radius: 50px;
+}
+    .btn-bloque {
+        /*background-color: red;*/
+        width: 100%;
+        padding: 1.5em;
+    }
+    /*-----------------------------------Desplegable Movil----------------------------------------------------------------------------------*/
+    .desplegable-index {
+        display: block;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        top: 50%;
+        z-index: 99;
+    }
+    .desplegable-index label {
+        display: block;
+        position: absolute;
+        z-index: 100;
+        top: 25px;
+        right: 3%;
+        color: white;;
+        font-size: 100px;
+        width: 10%;
+        
+    }
+    .desplegable {
+        padding-left: 5em;
+    }
+    .menu {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        height: 1900px;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+        -webkit-box-shadow: 0px 9px 9px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 9px 9px -5px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 9px 9px -5px rgba(0, 0, 0, 0.75);
+        /*background-color: #08254e;*/
+        background-color: transparent;
+    }
+    .menu p a {
+        color: #cecece;
+    }
+    .menu a {
+        font-size: 30px;
+    }
+    .menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu ul li:hover ul {
+        display: none;
+    }
+    .user-fa {
+        padding-top: 1em;
+        display: flex;
+        /*background-color: red;*/
+        flex-direction: column;
+        font-size: 40px;
+        padding-bottom: 2em;
+        color: white;
+    }
+    .enlaces {
+        background-color: #555555;
+        font-size: 30px;
+        padding: 2em 0;
+        width: 100%;
+        border-top: 2px solid rgba(255, 255, 255, 0.44);
+    }
+    .enlaces-ultimo {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.44);
+    }
+}

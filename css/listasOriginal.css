@@ -1,0 +1,21 @@
+html{
+    background-color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tabla{
+    margin-top: 3em;
+}
+.thead{
+    background-color: #1565C0;
+    color: aliceblue;
+}
+.menu-listado{
+   /* background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

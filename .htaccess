@@ -1,0 +1,5 @@
+ErrorDocument 400 http://salasuan.eshost.com.ar
+ErrorDocument 401 http://salasuan.eshost.com.ar
+ErrorDocument 403 http://salasuan.eshost.com.ar
+ErrorDocument 404 http://salasuan.eshost.com.ar
+ErrorDocument 503 http://salasuan.eshost.com.ar
