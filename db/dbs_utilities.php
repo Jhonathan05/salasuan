@@ -1,5 +1,5 @@
 <?php 
-require_once('dbs_credentials.php');	// Carga datos para conexion a BSD
+require_once('dbs_credentialsl.php');	// Carga datos para conexion a BSD
 //session_start();
 
 //include_once('verify.php');
