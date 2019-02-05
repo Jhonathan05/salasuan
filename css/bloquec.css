@@ -1,8 +1,14 @@
+@import url('homeb.css');
+@import url('styles.css');
+
 #importante-home{
     color: #535353;
     background-color: rgba(0, 0, 0, 0.08);
     border-radius: 5px;
+    -ms-flex-item-align: center;
     align-self: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 90%;
     margin: .8em 0 4em 0;
@@ -22,24 +28,40 @@
 }
 .btns-derecha {
     /*background-color: rgba(0, 0, 0, 0.08);*/
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .btns-derecha2 {
     /*background-color: rgba(0, 0, 0, 0.08);*/
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .asideDerecha1 {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     height: 100%;
 }
 
 @media(max-width:1000px) {
     .asideDerecha1 {
-        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        /* background-color: red;*/
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
         
     }
     .btn-fin{
@@ -67,9 +89,17 @@
         background-color: #061934;
     }
     .btns-derecha {
-        flex-direction: column;
+        flex-wrap: wrap;
+        
+        
     }
     .btns-derecha2 {
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #importante-home{
+        width: 38%;
     }
 }
+
+
+20px

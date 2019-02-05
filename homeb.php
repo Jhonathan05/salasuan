@@ -29,42 +29,42 @@ session_start(); ?>
                     <div class="cartas-derecha-1">
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B201</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="201.php">B201</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 18</li>
-                                <li class="item-carta des-movil"><strong>Equipos de Computo:</strong> 13</li>
-                                <li class="item-carta des-movil"><strong>Aire acondicionado:</strong> Si</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> HDMI x1</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Equipos de Computo:</strong> 13</li>
+                                <li class="item-carta"><strong>Aire acondicionado:</strong> Si</li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> HDMI x1</li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala201" action="201.php" method="post">
-                                        <input class="boton" name="Sala201" type="submit" value="B201">
+                                        <input class="boton movil" name="Sala201" type="submit" value="B201">
                                     </form>
                                 </li>
                             </ul>
                         </div>
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B202</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="202.php">B202</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 50</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> HDMI x1</li>
-                                <li class="item-carta des-movil"><strong>Aire acondicionado:</strong> Si</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Aire acondicionado:</strong> Si</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> HDMI x1</li>
+                                <li class="item-carta"><strong>Aire acondicionado:</strong> Si</li>
+                                <li class="item-carta txt-transparente"><strong>Aire acondicionado:</strong> Si</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala202" action="202.php" method="post">
                                         <input class="boton" name="Sala202" type="submit" value="B202">
                                     </form>
@@ -73,20 +73,20 @@ session_start(); ?>
                         </div>
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B203</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="203.php">B203</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 20</li>
-                                <li class="item-carta des-movil"><strong>Equipos de Computo:</strong> 13</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> HDMI x1</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Video Beam:</strong> No</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Equipos de Computo:</strong> 13</li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> HDMI x1</li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta txt-transparente des-movil"><strong>Video Beam:</strong> No</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala203" action="203.php" method="post">
                                         <input class="boton" name="Sala203" type="submit" value="B203">
                                     </form>
@@ -95,20 +95,20 @@ session_start(); ?>
                         </div>
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B204</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="204.php">B204</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 50</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> HDMI</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Video Beam:</strong> No</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Video Beam:</strong> No</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> HDMI</li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta txt-transparente"><strong>Video Beam:</strong> No</li>
+                                <li class="item-carta txt-transparente des-movil"><strong>Video Beam:</strong> No</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala204" action="204.php" method="post">
                                         <input class="boton" name="Sala204" type="submit" value="B204">
                                     </form>
@@ -120,19 +120,19 @@ session_start(); ?>
 
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B206</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="206.php">B206</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 35</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> HDMI</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> HDMI</li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta txt-transparente des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala206" action="206.php" method="post">
                                         <input class="boton" name="Sala206" type="submit" value="B206">
                                     </form>
@@ -141,19 +141,19 @@ session_start(); ?>
                         </div>
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B207</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta ">
+                                    <p class="titulo-carta"><strong><a href="207.php">B207</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta ">
                                     <Strong>Capacidad:</Strong> 18</li>
-                                <li class="item-carta des-movil"><strong>Equipos de Computo:</strong> 11</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta "><strong>Equipos de Computo:</strong> 11</li>
+                                <li class="item-carta "><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta txt-transparente des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala207" action="207.php" method="post">
                                         <input class="boton" name="Sala207" type="submit" value="B207">
                                     </form>
@@ -162,26 +162,26 @@ session_start(); ?>
                         </div>
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B208</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="208.php">B208</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 35</li>
-                                <li class="item-carta des-movil"><strong>Aire acondicionado:</strong> Si</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> HDMI</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Aire acondicionado:</strong> Si</li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> HDMI</li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala208" action="208.php" method="post">
                                         <input class="boton" name="Sala208" type="submit" value="B208">
                                     </form>
                                 </li>
                             </ul>
                         </div>
-                        <div id="importante-home" class="des-movil">
+                        <div id="importante-home">
                             <h3>IMPORTANTE</h3>
                             <p>Verifica si las salas están disponibles, en caso de que lo esté, se puede solicitar. Para cualquier informaci&oacute;n realizarla via email haciendo clic en: <a href="mailto:monitor.ibague@uan.edu.co">monitor.ibague@uan.edu.co</a>, o directamente con el monitor de turno</p>
                         </div>
@@ -189,19 +189,19 @@ session_start(); ?>
                     <div class="cartas-derecha-1">
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B209</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="209.php">B209</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 18</li>
-                                <li class="item-carta des-movil"><strong>Equipos de Computo:</strong> 13</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> HDMI</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Equipos de Computo:</strong> 13</li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> HDMI</li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala209" action="209.php" method="post">
                                         <input class="boton" name="Sala209" type="submit" value="B209">
                                     </form>
@@ -210,19 +210,19 @@ session_start(); ?>
                         </div>
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B301</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="301.php">B301</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 35</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> VGA, HDMI</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Video Beam:</strong> No</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> VGA, HDMI</li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta txt-transparente"><strong>Video Beam:</strong> No</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala301" action="301.php" method="post">
                                         <input class="boton" name="Sala301" type="submit" value="B301">
                                     </form>
@@ -231,19 +231,19 @@ session_start(); ?>
                         </div>
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>B302</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="302.php">B302</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 30</li>
-                                <li class="item-carta des-movil"><strong>Conexi&oacute;n TV:</strong> VGA, HDMI</li>
-                                <li class="item-carta des-movil"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Video Beam:</strong> No</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Conexi&oacute;n TV:</strong> VGA, HDMI</li>
+                                <li class="item-carta"><strong>Tablero:</strong> Acr&iacute;lico, Tiza</li>
+                                <li class="item-carta txt-transparente des-movil"><strong>Video Beam:</strong> No</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fSala302" action="302.php" method="post">
                                         <input class="boton" name="Sala302" type="submit" value="B302">
                                     </form>
@@ -252,19 +252,19 @@ session_start(); ?>
                         </div>
                         <div class="carta">
                             <ul>
-                                <li class="primer-carta des-movil">
-                                    <p class="titulo-carta"><strong>AUDITORIO</strong></p>
-                                    <p class="texto-titulo-carta">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <li class="primer-carta">
+                                    <p class="titulo-carta"><strong><a href="auditorio.php">AUDITORIO</a></strong></p>
+                                    <p class="texto-titulo-carta des-movil">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 </li>
-                                <li class="item-carta des-movil">
+                                <li class="item-carta">
                                     <Strong>Capacidad:</Strong> 300</li>
-                                <li class="item-carta des-movil"><strong>Video Beam:</strong> Si</li>
-                                <li class="item-carta des-movil"><strong>Accesorio:</strong> Micr&oacute;fono, Cabina x4, Planta</li>
-                                <li class="item-carta des-movil txt-transparente"><strong>Video Beam:</strong> No</li>
-                                <li class="item-carta des-movil item-carta-apartar"><strong>Ver Horarios</strong></li>
+                                <li class="item-carta"><strong>Video Beam:</strong> Si</li>
+                                <li class="item-carta"><strong>Accesorio:</strong> Micr&oacute;fono, Cabina x4, Planta</li>
+                                <li class="item-carta txt-transparente des-movil"><strong>Video Beam:</strong> No</li>
+                                <li class="item-carta item-carta-apartar des-movil"><strong>Ver Horarios</strong></li>
                                 <div class="arrow-before des-movil"></div>
                                 <div class="arrow-after des-movil"></div>
-                                <li class="item-carta ultimo-item">
+                                <li class="item-carta ultimo-item des-movil">
                                     <form name="fAuditorio" action="auditorio.php" method="post">
                                         <input class="boton" name="auditorio" type="submit" value="Auditorio">
                                     </form>
